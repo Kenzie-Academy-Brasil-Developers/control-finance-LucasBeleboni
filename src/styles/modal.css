@@ -6,14 +6,14 @@
     position: fixed;
     top: 0%;
     left: 50%;
-    transform: translate(-50%, 30%);
+    transform: translate(-50%, 18%);
     animation: modalIn var(--animation-duration) cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 @keyframes modalIn {
     from {
         opacity: 0;
-        transform: translate(-50%, -100%);
+        transform: translate(-50%, -50%);
     }
 
     to {
