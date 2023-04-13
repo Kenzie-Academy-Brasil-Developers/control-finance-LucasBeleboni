@@ -1,0 +1,45 @@
+@media (min-width: 736px) {
+    .container {
+        max-width: 43rem;
+
+    }
+
+    .app_header {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .modal__select-type-div {
+        flex-direction: row;
+        width: 100%;
+        height: max-content;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .entry {
+        width: 81px;
+        margin-right: .75rem;
+    }
+
+    .label-expenses {
+        width: 66px;
+    }
+
+    .modal__select-type-title {
+        width: max-content;
+        margin-right: 1rem;
+    }
+
+    .modal__buttons-container {
+        justify-content: flex-end;
+    }
+    .modal__button-cancel{
+        width: 89px;
+    }
+    .modal__button-cancel{
+        width: 109px;
+    }
+}

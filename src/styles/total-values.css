@@ -1,0 +1,20 @@
+
+.total-values__section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.75rem;
+    border-radius: .5rem;
+    padding: .875rem 1rem;
+    border: 1.5px solid var(--color-grey-4);
+    background-color: var(--color-grey-5);
+}
+
+.total-value__title {
+    color: var(--color-grey-1);
+
+}
+
+.total-values__sum {
+    color: var(--color-grey-1);
+}

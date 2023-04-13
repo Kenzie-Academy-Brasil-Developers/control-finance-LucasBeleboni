@@ -1,0 +1,39 @@
+.empty-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.75rem;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 688px;
+  height: 84px;
+  padding: 1rem 2.5rem 1rem 1rem;
+  background-color: #F1F3F5;
+  border: 1.5px dashed #ADB5BD;
+  border-radius: var(--radius-1);
+}
+
+.empty-div__h2 {
+  color: var(--color-grey-1);
+}
+
+.empty-state .text1-medium {
+  color: var(--color-grey-2);
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.empty-state .text1-medium:hover{
+  color: var(--color-brand-2);
+  transition: var(--animation-duration);
+}
+.hidden{
+  display: none;
+}

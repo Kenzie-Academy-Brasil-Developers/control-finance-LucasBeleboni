@@ -1,0 +1,23 @@
+.filter__button-active {
+    background-color: var(--color-brand-3);
+    border: 1.5px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+  }
+  
+  button:hover{
+    cursor: pointer;
+  }
+  label:hover{
+    cursor: pointer;
+  }
+  label:focus {
+    background-color: var(--color-brand-3);
+    border: 1.5px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+  }
+  #input-value:focus{
+    border: 1.5px solid var(--color-brand-1);
+  }
+  .cash-flow__item:hover{
+    border: 1.5px solid var(--color-brand-1);
+  }

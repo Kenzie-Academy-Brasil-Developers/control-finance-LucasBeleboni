@@ -1,1 +1,76 @@
-/* Desenvolva a estilização da sua página aqui */
+main {
+    padding: 0px 2rem 2rem 1rem;
+}
+body {
+    font-family: var(--font-family-1);
+  }
+  
+  .container {
+    max-width: 43rem;
+    margin: 0 auto;
+  }
+  
+  /* Text components */
+  .title1-bold {
+    font-family: var(--font-family-1);
+    font-size: 20px;
+    font-weight: var(--font-weight-1);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .title2-medium {
+    font-family: var(--font-family-1);
+    font-size: 16px;
+    font-weight: var(--font-weight-2);
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .title2-bold {
+    font-family: var(--font-family-1);
+    font-size: 16px;
+    font-weight: var(--font-weight-1);
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .text1-bold {
+    font-family: var(--font-family-1);
+    font-size: 14px;
+    font-weight: var(--font-weight-1);
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .text1-medium {
+    font-family: var(--font-family-1);
+    font-size: 14px;
+    font-weight: var(--font-weight-2);
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .text2-regular {
+    font-family: var(--font-family-1);
+    font-size: 12px;
+    font-weight: var(--font-weight-2);
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .text1-regular {
+    font-family: var(--font-family-1);
+    font-size: 14px;
+    font-weight: var(--font-weight-3);
+    line-height: 21px;
+    letter-spacing: 0em;
+  
+  }
+  

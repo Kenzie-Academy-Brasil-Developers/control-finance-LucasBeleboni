@@ -1,0 +1,51 @@
+.filter__select-type {
+    margin-top: 1.75rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.filter__buttons-container {
+    display: flex;
+    width: 261px;
+    justify-content: space-between;
+}
+
+.filter__title {
+    color: var(--color-grey-1);
+}
+
+.filter__buttons {
+    width: 70px;
+    height: 32px;
+    text-align: center;
+    border-radius: 8px;
+    outline: none;
+    background-color: var(--color-grey-5);
+    border: 1.5px solid var(--color-grey-5);
+    color: var(--color-grey-2);
+}
+.filter__buttons:focus{
+    background-color: var(--color-brand-3);
+    border: 1.5px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+}
+
+.filter__buttons:hover {
+    background-color: var(--color-brand-3);
+    border: 1.5px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+}
+
+.filter__button-active {
+    background-color: var(--color-brand-3);
+    border: 1.5px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+}
+@media(min-width:736px){
+    .filter__select-type {
+        flex-direction: row;
+        max-width: 687px;   
+    }
+}
