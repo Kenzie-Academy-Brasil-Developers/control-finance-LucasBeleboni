@@ -16,12 +16,11 @@
         width: 100%;
         height: max-content;
         justify-content: flex-start;
-        align-items: center;
+    
     }
 
     .entry {
         width: 81px;
-        margin-right: .75rem;
     }
 
     .label-expenses {
@@ -31,6 +30,7 @@
     .modal__select-type-title {
         width: max-content;
         margin-right: 1rem;
+        
     }
 
     .modal__buttons-container {
