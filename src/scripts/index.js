@@ -19,8 +19,8 @@ function init(){
 }
 
 function loadFromLocalStorage() {
-    const arrayCopy = JSON.parse(localStorage.getItem('insertedValues'));
+    const arrayCopy = JSON.parse(localStorage.getItem('insertedValues'))
     if (arrayCopy) {
-      insertedValues.push(...arrayCopy);
+      insertedValues.push(...arrayCopy)
   }
 }

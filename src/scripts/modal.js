@@ -210,6 +210,6 @@ function insertValue(modal) {
   })
 }
 export function saveToLocalStorage(array) {
-  const arrayCopy = [...array]; 
-  localStorage.setItem('insertedValues', JSON.stringify(arrayCopy)); 
+  const arrayCopy = [...array]
+  localStorage.setItem('insertedValues', JSON.stringify(arrayCopy))
 }
