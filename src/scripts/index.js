@@ -8,6 +8,7 @@ import { createEmptyState, emptyVerify } from "./empty-display.js";
 init()
 
 function init(){   
+    loadFromLocalStorage()
     emptyVerify()
     insertModal()   
     cashFlowUpdate(insertedValues)
@@ -15,4 +16,11 @@ function init(){
     removeCashFlowItem(insertedValues)
     createEmptyState()
     filterValues() 
+}
+
+function loadFromLocalStorage() {
+    const arrayCopy = JSON.parse(localStorage.getItem('insertedValues'));
+    if (arrayCopy) {
+      insertedValues.push(...arrayCopy);
+  }
 }

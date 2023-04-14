@@ -9,7 +9,7 @@ export function filterValues() {
     const list = document.querySelector('.cash-flow__list')
   
     allFilterBtn.addEventListener('click', () => {
-      const filteredValues = insertedValues
+      let filteredValues = insertedValues
       list.innerHTML = ''
       cashFlowUpdate(filteredValues)
       totalValue(filteredValues)

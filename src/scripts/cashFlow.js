@@ -1,7 +1,6 @@
 import { emptyVerify } from "./empty-display.js";
+import { saveToLocalStorage } from "./modal.js";
 import { insertedValues } from "./valuesData.js";
-
-
 
 export function cashFlowUpdate(array) {
   //Selecionando a ul
@@ -42,6 +41,7 @@ export function cashFlowUpdate(array) {
       }
 
       item.remove();
+      saveToLocalStorage(insertedValues)
       totalValue(insertedValues);
       emptyVerify()
 
@@ -53,6 +53,7 @@ export function cashFlowUpdate(array) {
         insertedValues.splice(index, 1);
       }
       item.remove();
+      saveToLocalStorage(insertedValues)
       totalValue(insertedValues)
       emptyVerify()
 

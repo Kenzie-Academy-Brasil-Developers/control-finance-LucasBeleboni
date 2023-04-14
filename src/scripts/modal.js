@@ -195,6 +195,9 @@ function insertValue(modal) {
     }
 
     insertedValues.unshift(toInsert)
+
+    saveToLocalStorage(insertedValues)
+
     emptyVerify()
     cashFlowUpdate(insertedValues)
     totalValue(insertedValues)
@@ -205,4 +208,8 @@ function insertValue(modal) {
 
 
   })
+}
+export function saveToLocalStorage(array) {
+  const arrayCopy = [...array]; 
+  localStorage.setItem('insertedValues', JSON.stringify(arrayCopy)); 
 }
